@@ -1,0 +1,27 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("/title.png");
+    background-size: 100% 100%;
+    font-family: Arial, sans-serif; /* デフォルトフォント */
+    color: #ffffff; /* 全体のテキストカラー */
+}
+
+.fade-out-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
